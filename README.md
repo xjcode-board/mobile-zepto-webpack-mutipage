@@ -58,9 +58,9 @@ title: 'mobile-zepto-webpack-mutipage' html公共标题
 `publicPath`的值是在`config.js`中定义的，可用于全局cdn引用路径
 
 ## 五：样式
-1.采用[vw方案](https://www.w3cplus.com/css/vw-for-layout.html)
-2.[postcss-px-to-viewport](https://npm.taobao.org/package/postcss-px-to-viewport)，可将px单位自动转换成viewport单位
-3.scss里面直接用px写样式，打包后会被转换成对应的vw
+1. 采用[vw方案](https://www.w3cplus.com/css/vw-for-layout.html)
+2. [postcss-px-to-viewport](https://npm.taobao.org/package/postcss-px-to-viewport)，可将px单位自动转换成viewport单位
+3. scss里面直接用px写样式，打包后会被转换成对应的vw
 
 ```配置
 require('postcss-px-to-viewport')({
