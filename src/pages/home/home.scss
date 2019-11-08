@@ -1,0 +1,17 @@
+@import "~@assets/style/main.scss";
+
+body{
+	background-color: #f9f9f9;
+}
+.home-page{
+	.list{
+		padding:40px;
+		.item{
+			background: #fff;
+			border-radius: 20px;
+			margin-bottom:30px;
+			padding:40px;
+			font-size:24px;
+		}
+	}
+}
